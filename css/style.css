@@ -1,0 +1,111 @@
+body{
+	margin:50px;
+}
+header{
+	background-color: black;
+	font-family: tahoma;
+	font-size: 15px;
+}
+.link{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+	right: 0;
+}
+.logo{
+	border: none;
+}
+li{
+	display: inline;
+	text-decoration: none;
+}
+section{
+	height: 1900px;
+	font-family: tahoma;
+}
+.title{
+	margin: 10px;
+	text-align: left;
+
+}
+.episodios{
+	height: 330px;
+	display: inline-block;
+	background-color: #D9D7D7;
+	text-align: center;
+	text-decoration: none;
+}
+.more{
+	font-size: 9px;
+	text-decoration: none;
+}
+img{
+	border: 5px solid;
+	border-color: white;
+}
+.disco{
+	height: 160px;
+	width: 160px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	background-color: #DDDBDB;
+	font-size: 15px;
+	color: #373636;
+}
+.big{
+	height: 220px;
+}
+.lista{
+	text-align: center;
+}
+
+footer{
+	height: 200px;
+	background-color: #5D5C5C;
+}
+p{
+	color:white;
+	text-align: center;
+	line-height: 2.1;
+	font-family: tahoma;
+}
+.link1{
+	color: #A5A5A5;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	font-family: tahoma;
+}
+.posicion{
+	position: relative;
+	left:300px;
+	top:30px;
+}
+h5{
+	color: #7C7C7C;
+	text-align: center;
+	font-family: tahoma;
+	position: relative;
+	top:50px;
+}
+.enlace{
+	float: right;
+}
+table{
+	line-height: 2.1;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.spons{
+	color: #4E4D4D;
+	margin-top: 20px;
+	text-align: left;
+}
