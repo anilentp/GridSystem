@@ -1,7 +1,8 @@
 body{
 	margin:50px;
+	font-family: tahoma;
 }
-header{
+.menu{
 	background-color: black;
 	font-family: tahoma;
 	font-size: 15px;
@@ -13,6 +14,7 @@ header{
 	position: relative;
 	top: 50px;
 	right: 0;
+
 }
 .logo{
 	border: none;
@@ -20,22 +22,20 @@ header{
 li{
 	display: inline;
 	text-decoration: none;
+	text-align: center;
 }
-section{
-	height: 1900px;
+.episodies{
+	height: 330px;
 	font-family: tahoma;
+	background-color: #D9D7D7;
 }
 .title{
 	margin: 10px;
 	text-align: left;
-
 }
-.episodios{
-	height: 330px;
-	display: inline-block;
-	background-color: #D9D7D7;
-	text-align: center;
-	text-decoration: none;
+.small{
+	background-color: white;
+	height: 1200px;
 }
 .more{
 	font-size: 9px;
@@ -46,12 +46,10 @@ img{
 	border-color: white;
 }
 .disco{
-	height: 160px;
-	width: 160px;
+	height: 120px;
+	width: 120px;
 	margin-top: 10px;
-	margin-left: 5px;
 }
-
 a:link{
 	text-decoration: none;
 }
@@ -61,7 +59,8 @@ a:hover{
 	color: #373636;
 }
 .big{
-	height: 220px;
+	height: 160px;
+	text-align: center;
 }
 .lista{
 	text-align: center;
@@ -76,6 +75,7 @@ p{
 	text-align: center;
 	line-height: 2.1;
 	font-family: tahoma;
+
 }
 .link1{
 	color: #A5A5A5;
@@ -97,7 +97,7 @@ h5{
 	top:50px;
 }
 .enlace{
-	float: right;
+	float:right;
 }
 table{
 	line-height: 2.1;
